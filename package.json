@@ -1,0 +1,23 @@
+{
+  "name": "robofriends",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://diegosalas27.github.io/Robofriends/",
+  "devDependencies": {
+    "react-scripts": "1.0.13"
+  },
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-scripts": "1.1.4",
+    "tachyons": "^4.11.1"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
